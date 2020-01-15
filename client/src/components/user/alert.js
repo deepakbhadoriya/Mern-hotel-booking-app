@@ -13,8 +13,18 @@ const Alert = ({ type }) => {
         You have save the hotel in draft
       </div>
     );
-  } else {
-    return null;
+  } 
+  else if (type === "auth") {
+    return (
+      <div className="alert alert-danger my-3" role="alert">
+        Credential are not Correct !!!!
+      </div>
+    );
+  }
+  else {
+    return (
+      null
+    );
   }
 };
 

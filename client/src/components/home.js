@@ -21,11 +21,8 @@ const Home = () => {
       getAllHotels();
     }
   });
-  // const hotelItem = hotels.map((item, index) => (
-  //   <div key={index} className="col-md-3 my-3 ">
-  //     <HotelItem hotels={item}></HotelItem>
-  //   </div>
-  // ));
+ 
+  
 
   return (
     <Router>
